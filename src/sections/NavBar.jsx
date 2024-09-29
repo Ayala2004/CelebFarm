@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <>
       <div
-        className="bg-[#643869] text-white 
+        className="text-violet
         lg:flex lg:flex-col"
       >
         <nav>
