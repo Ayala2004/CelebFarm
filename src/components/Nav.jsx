@@ -5,13 +5,13 @@ const Nav = ({ href, label, Icon, name }) => {
   return (
     <div
       className={`p-5 text-sm text-nowrap hover:text-[#643869] hover:bg-white rounded-md hover:font-semibold 
-    lg:flex lg:items-center lg:gap-2 ${name&& "hidden"}`}
+    lg:flex lg:items-center lg:gap-2 ${name && "hidden"}`}
     >
-        <Icon className="size-8  lg:block" />
+      <Icon className="size-8 hidden lg:block" />
 
-        <a className="" href={href}>
-          {label}
-        </a>
+      <a href={href}>
+        {label}
+      </a>
     </div>
   );
 };
