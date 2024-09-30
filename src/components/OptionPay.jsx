@@ -1,9 +1,6 @@
-const OptionPay = ({ Icon,label }) => {
+const OptionPay = ({ label }) => {
   return (
-    <option>
-      <Icon />
-      {label}
-    </option>
+      <option>{label}</option>
   );
 };
 

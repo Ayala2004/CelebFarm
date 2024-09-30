@@ -1,17 +1,16 @@
 import OptionPay from "./OptionPay";
-import { options } from "../constants";
-
+import { optionsPay } from "../constants";
+import { TbMoneybag } from "react-icons/tb";
 const ChoiceList = () => {
   return (
-    <select
-      name="paid"
-      id="paid"
-      className="w-32 border-2 border-slate-200 rounded m-0"
-    >
-      {options.map((option) => (
-        <OptionPay key={option.label} {...option} />
-      ))}
-    </select>
+    <div className="bg-white flex justify-center items-center p-3 border-2 border-slate-200 rounded">
+      <TbMoneybag size={20} className="" />
+      <select name="paid" className="w-32  m-0">
+        {optionsPay.map((option) => (
+          <OptionPay key={option.label} label={option.label} />
+        ))}
+      </select>
+    </div>
   );
 };
 
