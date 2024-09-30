@@ -5,6 +5,7 @@ import PostCard from "../components/PostCard";
 import { postMiniCards } from "../constants";
 import InstaChoiceList from "../components/InstaChoiceList";
 import FooterCard from "../components/FooterCard";
+import { PiDotsThreeOutlineDuotone } from "react-icons/pi";
 const CampaignPost = () => {
   return (
     <section className="bg-[#f7f6fc] p-5">
@@ -15,7 +16,7 @@ const CampaignPost = () => {
         <h1 className="card-title">Campaign Post</h1>
         <div className="flex flex-col gap-4 py-3 md:flex-row ">
           <ChoiceList />
-          <InstaChoiceList  />
+          <InstaChoiceList />
         </div>
       </header>
       <nav className="pt-4">
@@ -33,20 +34,29 @@ const CampaignPost = () => {
           </li>
         </ul>
       </nav>
-      <section className="bg-white flex flex-wrap justify-center md:justify-between p-5 ">
-        <h5 className="text-wrap big-card-text max-w-[30rem]">
-          Summer Sale 2024, New Product Launch - Summer 2024, Back to School
-          Sale 2024
-        </h5>
+      <section className="bg-white  p-5 min-h-56">
         <div>
-          <div className="flex gap-3 flex-col sm:flex-row justify-center items-center ">
-            {postMiniCards.map((card) => (
-              <PostCard key={card.title} {...card} />
-            ))}
+          <div className="flex justify-between">
+            <h5 className="text-wrap big-card-text max-w-[30rem]">
+              Summer Sale 2024, New Product Launch - Summer 2024, Back to School
+              Sale 2024
+            </h5>
+            <div className="flex">
+              <div className="flex gap-3 flex-col sm:flex-row justify-end items-center ">
+                {postMiniCards.map((card) => (
+                  <PostCard key={card.title} {...card} />
+                ))}
+                <PiDotsThreeOutlineDuotone
+                  size={20}
+                  className="justify-start"
+                />
+              </div>
+            </div>
           </div>
+          <div></div>
         </div>
-        <footer>
-          <FooterCard/>
+        <footer className="mt-auto text-sm text-slate-500 py-5 justify-start">
+          <FooterCard />
         </footer>
       </section>
     </section>
