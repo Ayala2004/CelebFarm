@@ -31,13 +31,13 @@ const CampaignPost = () => {
           </li>
         </ul>
       </nav>
-      <section className="bg-white flex flex-wrap justify-between p-5 ">
+      <section className="bg-white flex flex-wrap justify-center md:justify-between p-5 ">
         <h5 className="text-wrap big-card-text max-w-[30rem]">
           Summer Sale 2024, New Product Launch - Summer 2024, Back to School
           Sale 2024
         </h5>
-        <div className="flex gap-5">
-          <div className="flex flex-nowrap gap-3 flex-col justify-center items-center  md:flex-row ">
+        <div>
+          <div className="flex gap-3 flex-col justify-center items-center ">
             {postMiniCards.map((card)=>(
             <PostCard key={card.title} {...card}/>
           ))}
