@@ -9,8 +9,8 @@ import {
   PiNotepadLight,
   BiMessageSquareDetail,
   IoSettingsOutline,
+  TbMoneybag,
 } from "../assets/icons/index";
-
 
 export const navLinks = [
   { href: "#Dashboard", label: "Dashboard", Icon: PiSquaresFour },
@@ -45,4 +45,11 @@ export const headerIcon = [
   { Icon: BiMessageSquareDetail, href: "#massages" },
   { Icon: BiMessageSquareDetail, href: "#chat" },
   { Icon: LuBellRing, href: "#bell" },
+];
+
+export const options = [
+  { Icon: TbMoneybag, label: "paid1" },
+  { Icon: TbMoneybag, label: "paid2" },
+  { Icon: TbMoneybag, label: "paid3" },
+  { Icon: TbMoneybag, label: "paid4" },
 ];

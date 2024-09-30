@@ -10,7 +10,7 @@ import { PiNotepadLight } from "react-icons/pi";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { IoSettingsOutline } from "react-icons/io5";
 import { LuPlus } from "react-icons/lu";
-
+import { TbMoneybag } from "react-icons/tb";
 
 export {
   logo,
@@ -25,4 +25,5 @@ export {
   BiMessageSquareDetail,
   IoSettingsOutline,
   LuPlus,
+  TbMoneybag,
 };
