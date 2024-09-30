@@ -39,9 +39,9 @@ export const navLinks = [
   },
 ];
 
-export const headButIcon = [
-  { icon: PiNotepadLight },
-  { icon: BiMessageSquareDetail },
-  { icon: BiMessageSquareDetail },
-  { icon: LuBellRing },
+export const headerIcon = [
+  { Icon: PiNotepadLight, href: "#note" },
+  { Icon: BiMessageSquareDetail, href: "#massages" },
+  { Icon: BiMessageSquareDetail, href: "#chat" },
+  { Icon: LuBellRing, href: "#bell" },
 ];
