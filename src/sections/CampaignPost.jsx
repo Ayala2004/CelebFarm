@@ -4,6 +4,7 @@ import ChoiceList from "../components/ChoiceList";
 import PostCard from "../components/PostCard";
 import { postMiniCards } from "../constants";
 import InstaChoiceList from "../components/InstaChoiceList";
+import FooterCard from "../components/FooterCard";
 const CampaignPost = () => {
   return (
     <section className="bg-[#f7f6fc] p-5">
@@ -44,6 +45,9 @@ const CampaignPost = () => {
             ))}
           </div>
         </div>
+        <footer>
+          <FooterCard/>
+        </footer>
       </section>
     </section>
   );
