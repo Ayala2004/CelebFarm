@@ -53,3 +53,15 @@ export const options = [
   { Icon: TbMoneybag, label: "paid3" },
   { Icon: TbMoneybag, label: "paid4" },
 ];
+
+export const postMiniCards =[
+  {title:"Proposals", value:"02"},
+  {title:"Invited Creators", value:"02"},
+  {title:"Hired", value:"02"},
+];
+
+export const activeMiniCards = [
+  { title: "Proposals", value: "02" },
+  { title: "Invited Creators", value: "02" },
+  { title: "Hired", value: "02" },
+];
