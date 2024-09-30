@@ -13,6 +13,13 @@ const CampaignPost = () => {
           <ChoiceList />
         </div>
       </header>
+      <nav >
+        <ul className="flex gap-2 text-gray-400">
+          <li className="text-black border-b-2 border-black  font-bold"><a href="#open">open</a></li>
+          <li><a href="#closed">closed</a></li>
+          <li><a href="#Draft">Draft</a></li>
+        </ul>
+      </nav>
       
     </section>
   );
