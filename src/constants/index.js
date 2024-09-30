@@ -36,6 +36,7 @@ export const navLinks = [
     href: "#Setting",
     label: "Setting",
     Icon: IoSettingsOutline,
+    name: "setting",
   },
 ];
 
