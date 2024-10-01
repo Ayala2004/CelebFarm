@@ -11,7 +11,8 @@ import {
   IoSettingsOutline,
   TbMoneybag,
 } from "../assets/icons/index";
-import instagram from "../assets/images/instagram.png" 
+import instagram from "../assets/images/instagram.png";
+import PostCard from "../components/PostCard";
 export const navLinks = [
   { href: "#Dashboard", label: "Dashboard", Icon: PiSquaresFour },
   {
@@ -55,20 +56,45 @@ export const optionsPay = [
 ];
 
 export const optionsInsta = [
-  {label: "instagram1" },
-  {label: "instagram2" },
-  {label: "instagram3" },
-  {label: "instagram4" },
+  { label: "instagram1" },
+  { label: "instagram2" },
+  { label: "instagram3" },
+  { label: "instagram4" },
 ];
 
-export const postMiniCards =[
-  {title:"Proposals", value:"02"},
-  {title:"Invited Creators", value:"02"},
-  {title:"Hired", value:"02"},
+export const postMiniCardsFirst
+ = [
+  { title: "Proposals", value: "02" },
+  { title: "Invited Creators", value: "02" },
+  { title: "Hired", value: "02" },
 ];
+
+export const postMiniCardsSecond = [
+  { title: "creators", value: "02" },
+  { title: " Aount Spand", value: "114$" },
+  { title: "deliverable Live", value: "02" },
+];
+
+export const postMiniCardsThird = [
+  { title: "Proposals", value: "02" },
+  { title: "Invited Creators", value: "02" },
+  { title: "Hired", value: "02" },
+];
+
 
 export const activeMiniCards = [
   { title: "Proposals", value: "02" },
   { title: "Invited Creators", value: "02" },
   { title: "Hired", value: "02" },
+];
+
+export const whiteSlideContent = [
+  {
+    bodyText:
+      "Summer Sale 2024, New Product Launch - Summer 2024, Back to School Sale 2024"
+  },
+  {
+    bodyText: "Back to School Sale 2024 - Students and Reachers Get 20% Off"
+  },
+  { bodyText: "10,000$ Google Serch Campaign - Brand Terms, Millennial Mom, Luxury Goods Buyers Campaign" },
 ];
