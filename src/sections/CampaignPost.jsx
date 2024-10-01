@@ -5,15 +5,32 @@ const CampaignPost = () => {
   return (
     <section className="bg-[#f7f6fc] p-5">
       <Choice key={"Campaign Post"} title={"Campaign Post"} />
-      <div>
-        <WhiteSlide
-          bodyText={
-            "Summer Sale 2024, New Product Launch - Summer 2024, Back to School Sale 2024"
-          }
-          postMiniCard={postMiniCardsFirst}
-        />
+      <div className="mt-2">
+        <nav className="">
+          <ul className="flex gap-2 text-gray-400 ">
+            <li className="text-black border-b-2 border-black  font-medium">
+              <a className="font-semibold" href="#open">
+                open
+              </a>
+            </li>
+            <li className="hover:text-black hover:border-b-2 hover:border-black">
+              <a href="#closed">closed</a>
+            </li>
+            <li className="hover:text-black hover:border-b-2 hover:border-black">
+              <a href="#Draft">Draft</a>
+            </li>
+          </ul>
+        </nav>
+        <div className="">
+          <WhiteSlide
+            bodyText={
+              "Summer Sale 2024, New Product Launch - Summer 2024, Back to School Sale 2024"
+            }
+            postMiniCard={postMiniCardsFirst}
+          />
+        </div>
       </div>
-      <footer className="text-sm text-slate-400">
+      <footer className="text-sm text-slate-400 py-3">
         <a href="">view All</a>
       </footer>
     </section>
