@@ -3,10 +3,10 @@ import WhiteSlide from "../components/WhiteSlide";
 import Choice from "../components/Choice";
 const CampaignPost = () => {
   return (
-    <section className="bg-[#f7f6fc] p-5">
+    <section className="bg-[#f7f6fc] p-5 border-2 h-fit border-gray-200 m-10 rounded-2xl">
       <Choice key={"Campaign Post"} title={"Campaign Post"} />
       <div className="mt-2">
-        <nav className="">
+        <nav>
           <ul className="flex gap-2 text-gray-400 ">
             <li className="text-black border-b-2 border-black  font-medium">
               <a className="font-semibold" href="#open">
@@ -21,7 +21,7 @@ const CampaignPost = () => {
             </li>
           </ul>
         </nav>
-        <div className="">
+        <div>
           <WhiteSlide
             bodyText={
               "Summer Sale 2024, New Product Launch - Summer 2024, Back to School Sale 2024"
@@ -30,8 +30,8 @@ const CampaignPost = () => {
           />
         </div>
       </div>
-      <footer className="text-sm text-slate-400 py-3">
-        <a href="">view All</a>
+      <footer className="text-sm text-slate-400 absolute p-3 mb-auto mt-auto">
+        <a href="#view all">view All</a>
       </footer>
     </section>
   );

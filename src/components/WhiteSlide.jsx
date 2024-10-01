@@ -5,7 +5,7 @@ import instagram from "../assets/images/instagram.png";
 const WhiteSlide = ({ bodyText, postMiniCard }) => {
   return (
     <section className="bg-[#f7f6fc] mt-2">
-      <section className="bg-white rounded-xl h-auto  p-5 md:h-36 ">
+      <section className="bg-white rounded-xl h-fit  p-5 ">
         <div className="flex flex-col md:flex-row justify-between">
           <div className="flex justify-between">
             <h5 className="text-wrap font-bold md:big-card-text sm:pr-0 max-w-[30rem] text-sm lg:text-lg">
