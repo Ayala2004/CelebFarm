@@ -4,11 +4,10 @@ import Nav from "../components/Nav";
 import { IoSettingsOutline } from "react-icons/io5";
 const NavBar = () => {
   return (
-    <>
+    <section>
       <div
-        className="text-violet
-        lg:flex lg:flex-col h-screen"
-
+        className="text-violet rounded
+         lg:flex-col h-screen lg:sticky "
       >
         <nav>
           <h1 className="p-3 border-b-2 border-slate-300 flex justify-between">
@@ -26,7 +25,7 @@ const NavBar = () => {
           </ul>
         </nav>
       </div>
-    </>
+    </section>
   );
 };
 

@@ -26,7 +26,7 @@ const ActiveCampaign = () => {
               postMiniCard={postMiniCardsSecond}
             />
           </div>
-          <div className="bg-[#f7f6fc] p-5 rounded-2xl lg:flex lg:flex-row lg:justify-between">
+          <div className="bg-[#f7f6fc] p-5 rounded-2xl flex flex-col justify-center items-center gap-10 lg:flex-row lg:justify-between">
             <ActiveCard
               imgPost={people}
               imgProfil={profile1}

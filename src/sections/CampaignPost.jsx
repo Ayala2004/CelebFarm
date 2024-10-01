@@ -3,7 +3,7 @@ import WhiteSlide from "../components/WhiteSlide";
 import Choice from "../components/Choice";
 const CampaignPost = () => {
   return (
-    <section className="bg-[#f7f6fc] p-5 border-2 h-fit border-gray-200 m-10 rounded-2xl">
+    <section className="bg-[#f7f6fc] p-5 border-2 min-h-[350px] border-gray-200 m-10 rounded-2xl">
       <Choice key={"Campaign Post"} title={"Campaign Post"} />
       <div className="mt-2">
         <nav>
@@ -30,8 +30,13 @@ const CampaignPost = () => {
           />
         </div>
       </div>
-      <footer className="text-sm text-slate-400 absolute p-3 mb-auto mt-auto">
-        <a href="#view all">view All</a>
+      <footer>
+        <a
+          href="#view all"
+          className="text-sm text-slate-400 absolute py-10 px-3"
+        >
+          view All
+        </a>
       </footer>
     </section>
   );

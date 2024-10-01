@@ -8,11 +8,11 @@ import {
 function App() {
   return (
     <>
-      <main className="Poppins">
-        <div>
+      <main className="Poppins grid lg:grid-cols-5 m-20 border-2 rounded-xl shadow-md shadow-black h-fit border-gray-100">
+        <div className="">
           <NavBar />
         </div>
-        <div>
+        <div className=" lg:col-span-4">
           <section>
             <Header />
           </section>
