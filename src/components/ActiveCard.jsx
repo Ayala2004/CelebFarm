@@ -22,22 +22,22 @@ const ActiveCard = ({
           />
         </div>
 
-        <div className="flex flex-col gap-3 mt-3">
+        <div className="flex flex-col gap-3 mt-3 w-full">
           {/* status and time//////////////////////////////////////////// */}
           <div className="flex justify-between">
             <div
-              className={`bg-purple-50 text-purple-800 text-sm rounded-xl text-nowrap py-[4px] px-2
+              className={` text-sm rounded-xl text-nowrap py-[4px] px-2
                 ${
-                  status == "Live"
+                  status === "Live"
                     ? "bg-green-50 text-green-700"
                     : status === "For review"
                     ? "bg-red-50 text-red-500"
-                    : ""
+                    : "bg-purple-50 text-purple-800"
                 }`}
             >
               {status}
             </div>
-            <div className="text-[10px] text-slate-300">{time}</div>
+            <div className="text-[10px] text-slate-300 px-3">{time}</div>
           </div>
 
           {/* title//////////////////////////////////////////// */}

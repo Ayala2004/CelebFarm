@@ -33,12 +33,12 @@ export const navLinks = [
     label: "Report and Analytics",
     Icon: TbReportAnalytics,
   },
-  {
-    href: "#Setting",
-    label: "Setting",
-    Icon: IoSettingsOutline,
-    name: "setting",
-  },
+  // {
+  //   href: "#Setting",
+  //   label: "Setting",
+  //   Icon: IoSettingsOutline,
+  //   name: "setting",
+  // },
 ];
 
 export const headerIcon = [
@@ -82,19 +82,19 @@ export const postMiniCardsThird = [
 ];
 
 
-export const activeMiniCards = [
-  { title: "Proposals", value: "02" },
-  { title: "Invited Creators", value: "02" },
-  { title: "Hired", value: "02" },
-];
+// export const activeMiniCards = [
+//   { title: "Proposals", value: "02" },
+//   { title: "Invited Creators", value: "02" },
+//   { title: "Hired", value: "02" },
+// ];
 
-export const whiteSlideContent = [
-  {
-    bodyText:
-      "Summer Sale 2024, New Product Launch - Summer 2024, Back to School Sale 2024"
-  },
-  {
-    bodyText: "Back to School Sale 2024 - Students and Reachers Get 20% Off"
-  },
-  { bodyText: "10,000$ Google Serch Campaign - Brand Terms, Millennial Mom, Luxury Goods Buyers Campaign" },
-];
+// export const whiteSlideContent = [
+//   {
+//     bodyText:
+//       "Summer Sale 2024, New Product Launch - Summer 2024, Back to School Sale 2024"
+//   },
+//   {
+//     bodyText: "Back to School Sale 2024 - Students and Reachers Get 20% Off"
+//   },
+//   { bodyText: "10,000$ Google Serch Campaign - Brand Terms, Millennial Mom, Luxury Goods Buyers Campaign" },
+// ];

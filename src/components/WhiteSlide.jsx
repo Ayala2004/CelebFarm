@@ -15,9 +15,9 @@ const WhiteSlide = ({ bodyText, postMiniCard }) => {
               <PiDotsThreeOutlineDuotone size={20} className="justify-start" />
             </div>
           </div>
-          <div className="flex gap-5">
+          <div className="flex gap-5 justify-center">
             <div>
-              <div className="flex gap-3 flex-col sm:flex-row justify-end items-center py-3">
+              <div className="flex gap-3 flex-col justify-center sm:flex-row md:justify-end items-center py-3">
                 {postMiniCard.map((card) => (
                   <PostCard key={card.title} {...card} />
                 ))}
