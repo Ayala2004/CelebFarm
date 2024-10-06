@@ -9,10 +9,11 @@ import profile1 from "../assets/images/profile1.avif";
 import profile2 from "../assets/images/profile2.avif";
 import profile3 from "../assets/images/profile3.webp";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { HiOutlineArrowLeft } from "react-icons/hi2";
 
 const ActiveCampaign = () => {
   return (
-    <section className="bg-white p-[10px] m-10 border-2 border-gray-200 rounded-2xl h-fit">
+    <section className="bg-white p-[10px] m-10 border-2 border-gray-100 rounded-2xl h-fit">
       <div className="border-hidden">
         <Choice key={"Active Campaign"} title={"Active Campaign"} />
       </div>
@@ -27,6 +28,9 @@ const ActiveCampaign = () => {
             />
           </div>
           <div className="bg-[#f7f6fc] p-5 rounded-2xl flex flex-col justify-center items-center gap-10 lg:flex-row lg:justify-between">
+            <div className="bg-white mb-20 mx-[-20px]  p-0 absolute flex rounded-full cursor-pointer w-8 h-8 justify-center items-center shadow-sm shadow-gray-400">
+              <HiOutlineArrowLeft />
+            </div>
             <ActiveCard
               imgPost={people}
               imgProfil={profile1}
@@ -47,6 +51,7 @@ const ActiveCampaign = () => {
               name={"Darrell Steward"}
               buttonText={"Pay"}
             />
+
             <ActiveCard
               imgPost={girl}
               imgProfil={profile3}
@@ -57,6 +62,9 @@ const ActiveCampaign = () => {
               name={"Robert Fox"}
               buttonText={"Aporove"}
             />
+            <div className="bg-white mx-[63%] mb-20 p-0 absolute flex rounded-full cursor-pointer w-8 h-8 justify-center items-center shadow-sm shadow-gray-400">
+              <FaArrowRightLong />
+            </div>
           </div>
         </div>
       </section>
