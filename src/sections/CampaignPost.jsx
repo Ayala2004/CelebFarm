@@ -30,10 +30,10 @@ const CampaignPost = () => {
           />
         </div>
       </div>
-      <footer>
+      <footer className="relative">
         <a
           href="#view all"
-          className="text-sm text-slate-400 absolute py-10 px-3"
+          className="text-sm text-slate-400 p-5 block"
         >
           view All
         </a>

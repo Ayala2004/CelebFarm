@@ -21,6 +21,7 @@
 .text-violet {
    background-color: #643869;
    color: white;
+   /* @apply h-full; */
 }
 
 .card-title {

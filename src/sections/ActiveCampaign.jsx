@@ -13,7 +13,7 @@ import { HiOutlineArrowLeft } from "react-icons/hi2";
 
 const ActiveCampaign = () => {
   return (
-    <section className="bg-white p-[10px] m-10 border-2 border-gray-100 rounded-2xl h-fit">
+    <section className="bg-white p-[10px] m-10 border-2 border-gray-100 rounded-2xl">
       <div className="border-hidden">
         <Choice key={"Active Campaign"} title={"Active Campaign"} />
       </div>
@@ -27,44 +27,49 @@ const ActiveCampaign = () => {
               postMiniCard={postMiniCardsSecond}
             />
           </div>
-          <div className="bg-[#f7f6fc] p-5 rounded-2xl flex flex-col justify-center items-center gap-10 lg:flex-row lg:justify-between">
-            <div className="bg-white mb-20 mx-[-20px]  p-0 absolute flex rounded-full cursor-pointer w-8 h-8 justify-center items-center shadow-sm shadow-gray-400">
+          <div className="bg-[#f7f6fc] p-5  rounded-2xl flex flex-col justify-center items-center gap-10 lg:flex-row lg:justify-between lg:overflow-x-scroll">
+            {/* <div className="bg-white mb-20 mx-[-20px]  p-0 absolute flex rounded-full cursor-pointer w-8 h-8 justify-center items-center shadow-sm shadow-gray-400">
               <HiOutlineArrowLeft />
+            </div> */}
+            <div className="w-[400px]">
+              <ActiveCard
+                imgPost={people}
+                imgProfil={profile1}
+                status={"Pending Activation"}
+                time={" "}
+                title={"Post(Photo)"}
+                date={""}
+                name={"Darlene Robertson"}
+                buttonText={"Activate"}
+              />
             </div>
-            <ActiveCard
-              imgPost={people}
-              imgProfil={profile1}
-              status={"Pending Activation"}
-              time={" "}
-              title={"Post(Photo)"}
-              date={""}
-              name={"Darlene Robertson"}
-              buttonText={"Activate"}
-            />
-            <ActiveCard
-              imgPost={computer}
-              imgProfil={profile2}
-              status={"Live"}
-              time={"1hr"}
-              title={"Post(Photo)"}
-              date={"Posted on: Oct 20,2022"}
-              name={"Darrell Steward"}
-              buttonText={"Pay"}
-            />
-
-            <ActiveCard
-              imgPost={girl}
-              imgProfil={profile3}
-              status={"For review"}
-              time={"1hr"}
-              title={"Post(Photo)"}
-              date={"Due: Oct 20,2022"}
-              name={"Robert Fox"}
-              buttonText={"Aporove"}
-            />
-            <div className="bg-white mx-[63%] mb-20 p-0 absolute flex rounded-full cursor-pointer w-8 h-8 justify-center items-center shadow-sm shadow-gray-400">
+            <div className="w-[400px]">
+              <ActiveCard
+                imgPost={computer}
+                imgProfil={profile2}
+                status={"Live"}
+                time={"1hr"}
+                title={"Post(Photo)"}
+                date={"Posted on: Oct 20,2022"}
+                name={"Darrell Steward"}
+                buttonText={"Pay"}
+              />
+            </div>
+            <div className="w-[400px]">
+              <ActiveCard
+                imgPost={girl}
+                imgProfil={profile3}
+                status={"For review"}
+                time={"1hr"}
+                title={"Post(Photo)"}
+                date={"Due: Oct 20,2022"}
+                name={"Robert Fox"}
+                buttonText={"Aporove"}
+              />
+            </div>
+            {/* <div className="bg-white mx-[63%] mb-20 p-0 absolute flex rounded-full cursor-pointer w-8 h-8 justify-center items-center shadow-sm shadow-gray-400">
               <FaArrowRightLong />
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
